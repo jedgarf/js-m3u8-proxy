@@ -49,4 +49,4 @@ cors_proxy.createServer({
   console.log('Running CORS Anywhere on ' + host + ':' + port);
 });
 
-export default cors_proxy;
+module.defaults = cors_proxy;

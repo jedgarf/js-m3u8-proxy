@@ -1,2 +1,2 @@
-import { createServer } from "../lib/cors-anywhere.js";
-export default createServer;
+import app from "../server.js";
+module.defaults = app;
