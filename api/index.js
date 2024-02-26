@@ -1,2 +1,2 @@
-import app from "../server.js";
-export default app;
+import { createServer } from "../lib/cors-anywhere.js";
+export default createServer;
